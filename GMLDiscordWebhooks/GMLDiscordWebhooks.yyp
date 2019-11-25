@@ -31,10 +31,18 @@
     },
     "resources": [
         {
+            "Key": "00d76898-d6af-4151-b660-c70b10e176a0",
+            "Value": {
+                "id": "f897a109-bf6a-4a6d-be7f-847d2e2418a9",
+                "resourcePath": "scripts\\discord_wbhk_export_json\\discord_wbhk_export_json.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "07a49096-e18c-4687-ab3b-847d2d8a5954",
             "Value": {
                 "id": "8cadae33-9eb7-4b0c-a6c5-21a0d2432bf3",
-                "resourcePath": "scripts\\discord_webhook_set_bot\\discord_webhook_set_bot.yy",
+                "resourcePath": "scripts\\discord_wbhk_set_bot\\discord_wbhk_set_bot.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -47,11 +55,59 @@
             }
         },
         {
+            "Key": "1d23a406-5826-4c97-bf8c-80a7cc3c04c4",
+            "Value": {
+                "id": "34cf7916-2b30-4131-826c-1aaef201fdbd",
+                "resourcePath": "scripts\\discord_wbhk_embeds_add_thumbnail\\discord_wbhk_embeds_add_thumbnail.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "2733793b-f1cb-49cb-ae88-d5748f91a2de",
+            "Value": {
+                "id": "3b8383a5-73e2-4990-8f3a-b112a4bfc813",
+                "resourcePath": "scripts\\discord_wbhk_embeds_start\\discord_wbhk_embeds_start.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "2a67fde6-9444-4f78-97a0-23bef0e900f1",
+            "Value": {
+                "id": "c9be4389-b7aa-416f-8cdc-fd044bcf9990",
+                "resourcePath": "scripts\\discord_wbhk_embeds_add_map\\discord_wbhk_embeds_add_map.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "40993ffa-6959-4548-bc9e-4822f251357c",
+            "Value": {
+                "id": "9e6e0d6a-eab2-4981-897e-f4afe883acc8",
+                "resourcePath": "views\\40993ffa-6959-4548-bc9e-4822f251357c.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "46adc8a7-e18d-4946-91d5-0bc2b19790b0",
+            "Value": {
+                "id": "56d5e176-6086-478c-a954-d3e4246546de",
+                "resourcePath": "scripts\\discord_wbhk_embeds_add_footer\\discord_wbhk_embeds_add_footer.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "5aad4556-c74d-45d4-afc8-e6f4ebcbd8b7",
             "Value": {
                 "id": "5e53247e-5284-473b-a077-d69ba8f6b193",
                 "resourcePath": "views\\5aad4556-c74d-45d4-afc8-e6f4ebcbd8b7.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "5ce0b258-69c3-4422-a879-d73a2a62ed46",
+            "Value": {
+                "id": "853ac63f-f48f-4d8f-9b32-fd30c6aba370",
+                "resourcePath": "scripts\\discord_wbhk_embeds_fields_bind\\discord_wbhk_embeds_fields_bind.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -130,7 +186,7 @@
             "Key": "95a18063-311d-4b9a-8ae3-6a722d3b33c5",
             "Value": {
                 "id": "bf4aaad4-5a97-4f0b-892a-642348ebb538",
-                "resourcePath": "scripts\\discord_webhook_cleaup\\discord_webhook_cleaup.yy",
+                "resourcePath": "scripts\\discord_wbhk_cleaup\\discord_wbhk_cleaup.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -154,7 +210,15 @@
             "Key": "974cc0af-3797-4f83-a115-f98e47d423cc",
             "Value": {
                 "id": "5574f990-370a-43ac-853a-a0aa92d57f05",
-                "resourcePath": "scripts\\discord_webhook_set_message\\discord_webhook_set_message.yy",
+                "resourcePath": "scripts\\discord_wbhk_set_message\\discord_wbhk_set_message.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "9ca53dc3-6872-4c5e-8e3b-86bfad449b6c",
+            "Value": {
+                "id": "935767f6-4540-4027-bc25-3ddfcb480af7",
+                "resourcePath": "scripts\\discord_wbhk_embeds_add_list\\discord_wbhk_embeds_add_list.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -194,7 +258,7 @@
             "Key": "a9d5bb80-9b2d-4bab-8f69-11949aa97c4f",
             "Value": {
                 "id": "3e2bf5fb-0bc0-4144-b578-52302f1a9002",
-                "resourcePath": "scripts\\discord_webhook_destroy\\discord_webhook_destroy.yy",
+                "resourcePath": "scripts\\discord_wbhk_destroy\\discord_wbhk_destroy.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -202,7 +266,31 @@
             "Key": "ad2a07f6-a32a-458e-a82c-993705dd900d",
             "Value": {
                 "id": "0228f791-6618-4fc5-b844-daa2adff67b5",
-                "resourcePath": "scripts\\discord_webhook_set_url\\discord_webhook_set_url.yy",
+                "resourcePath": "scripts\\discord_wbhk_set_webhook_url\\discord_wbhk_set_webhook_url.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "b21a3010-0a9f-48db-aff5-08fe247d144b",
+            "Value": {
+                "id": "51aa5367-950b-4ff1-b888-c4a1816933ee",
+                "resourcePath": "scripts\\discord_wbhk_embeds_add_colour\\discord_wbhk_embeds_add_colour.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "c71e0947-bdb2-4798-86d0-aca8ee158007",
+            "Value": {
+                "id": "91f40175-091b-4470-a935-168f1870124f",
+                "resourcePath": "scripts\\discord_wbhk_embeds_add_url\\discord_wbhk_embeds_add_url.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "c98c44b7-e4da-4816-9a45-6ffb37363fa0",
+            "Value": {
+                "id": "1e757351-7f16-4496-a397-c5cdd00d4516",
+                "resourcePath": "scripts\\discord_wbhk_embeds_add_title\\discord_wbhk_embeds_add_title.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -218,8 +306,48 @@
             "Key": "d272cc72-193a-492c-a480-ffb265550777",
             "Value": {
                 "id": "2555c3c9-0645-4acf-a05d-a8f46c024dc7",
-                "resourcePath": "scripts\\discord_webhook_create\\discord_webhook_create.yy",
+                "resourcePath": "scripts\\discord_wbhk_create\\discord_wbhk_create.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "d9ee3784-ea92-474f-97de-37efefbdfb3c",
+            "Value": {
+                "id": "821ee100-c8ef-4bb6-8665-51d28aecf0ba",
+                "resourcePath": "scripts\\discord_wbhk_import_json\\discord_wbhk_import_json.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "dc6b2c18-3c0b-45b7-a82f-e5145c981ae8",
+            "Value": {
+                "id": "05cc14e8-09e3-448f-bbe4-915623f953f9",
+                "resourcePath": "scripts\\discord_wbhk_embeds_end\\discord_wbhk_embeds_end.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "dfa14c3d-5ea0-4af8-9c3d-27eec423cb4d",
+            "Value": {
+                "id": "e2774042-6939-4c2d-8575-df34f0c30538",
+                "resourcePath": "scripts\\discord_wbhk_embeds_add_image\\discord_wbhk_embeds_add_image.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "dff95ff2-b745-49bc-8915-3d74e75c57e5",
+            "Value": {
+                "id": "50e25fce-71e7-482d-95d4-9e96186d3c40",
+                "resourcePath": "scripts\\discord_wbhk_embeds_add_json\\discord_wbhk_embeds_add_json.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "e25bc7c7-7ada-4f20-909b-62a541c95378",
+            "Value": {
+                "id": "2acfea21-b089-4392-ad38-fb0ae48119d8",
+                "resourcePath": "views\\e25bc7c7-7ada-4f20-909b-62a541c95378.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -231,11 +359,51 @@
             }
         },
         {
+            "Key": "e6f0bc71-9cbc-4eca-be2e-2bf2493b4d95",
+            "Value": {
+                "id": "dac495f1-3107-476e-b440-be06dff81046",
+                "resourcePath": "scripts\\discord_wbhk_embeds_add_description\\discord_wbhk_embeds_add_description.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "e9162cba-8377-4ca9-a739-eec61bdbab9d",
+            "Value": {
+                "id": "d892df84-adde-43f2-adf8-c60d1fe70b25",
+                "resourcePath": "scripts\\discord_wbhk_embeds_fields_add\\discord_wbhk_embeds_fields_add.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "edfe4c8f-d552-4529-8bf4-b1e8ce3d74be",
+            "Value": {
+                "id": "8e6e0e2f-ac60-4380-a048-4e140352d826",
+                "resourcePath": "scripts\\discord_wbhk_embeds_add_author\\discord_wbhk_embeds_add_author.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "f3416478-574d-4881-9fb0-2a6d86ac3c3c",
+            "Value": {
+                "id": "a1f7968e-08ca-4a6e-bdec-cfbfbf1920c4",
+                "resourcePath": "scripts\\discord_wbhk_enable_tts\\discord_wbhk_enable_tts.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "f418569b-3bdd-4706-a0e4-364317f54032",
             "Value": {
                 "id": "d6e53734-96c7-4ff9-98f7-e6b417a99653",
                 "resourcePath": "options\\mac\\options_mac.yy",
                 "resourceType": "GMMacOptions"
+            }
+        },
+        {
+            "Key": "f56ce1f8-c3ae-4a34-a599-1aeed81a7635",
+            "Value": {
+                "id": "5f1bcf87-bde0-4ab2-9183-453955c78a34",
+                "resourcePath": "views\\f56ce1f8-c3ae-4a34-a599-1aeed81a7635.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -250,7 +418,7 @@
             "Key": "f78d4523-42ec-45bf-8b94-ae0be3b17659",
             "Value": {
                 "id": "99e1ac37-6d0a-46d1-bb01-f112fe19a872",
-                "resourcePath": "scripts\\discord_webhook_send\\discord_webhook_send.yy",
+                "resourcePath": "scripts\\discord_wbhk_send\\discord_wbhk_send.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -268,6 +436,14 @@
                 "id": "4bce008a-5066-4a40-9d42-36625a685c1d",
                 "resourcePath": "views\\f88eb51f-c14a-40e1-ad2e-6a0723fda484.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "f8d2aca6-ef92-40ee-b419-82e6b59569ca",
+            "Value": {
+                "id": "7dc845ba-51fe-4bea-8c0e-84d694e5ded5",
+                "resourcePath": "scripts\\discord_wbhk_embeds_add_timestamp\\discord_wbhk_embeds_add_timestamp.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -301,16 +477,44 @@
                 "resourcePath": "views\\fef8a27c-ca6b-4751-9e05-4300cb088463.yy",
                 "resourceType": "GMFolder"
             }
+        },
+        {
+            "Key": "fff202fe-d3fd-4a16-ae6f-11a1a9878655",
+            "Value": {
+                "id": "0151c612-fe0b-49cd-93b1-638bc6891d9f",
+                "resourcePath": "scripts\\discord_wbhk_embeds_add_color\\discord_wbhk_embeds_add_color.yy",
+                "resourceType": "GMScript"
+            }
         }
     ],
     "script_order": [
         "d272cc72-193a-492c-a480-ffb265550777",
         "07a49096-e18c-4687-ab3b-847d2d8a5954",
+        "00d76898-d6af-4151-b660-c70b10e176a0",
+        "d9ee3784-ea92-474f-97de-37efefbdfb3c",
         "974cc0af-3797-4f83-a115-f98e47d423cc",
         "f78d4523-42ec-45bf-8b94-ae0be3b17659",
         "a9d5bb80-9b2d-4bab-8f69-11949aa97c4f",
         "95a18063-311d-4b9a-8ae3-6a722d3b33c5",
-        "ad2a07f6-a32a-458e-a82c-993705dd900d"
+        "f3416478-574d-4881-9fb0-2a6d86ac3c3c",
+        "ad2a07f6-a32a-458e-a82c-993705dd900d",
+        "2733793b-f1cb-49cb-ae88-d5748f91a2de",
+        "dc6b2c18-3c0b-45b7-a82f-e5145c981ae8",
+        "2a67fde6-9444-4f78-97a0-23bef0e900f1",
+        "9ca53dc3-6872-4c5e-8e3b-86bfad449b6c",
+        "dff95ff2-b745-49bc-8915-3d74e75c57e5",
+        "dfa14c3d-5ea0-4af8-9c3d-27eec423cb4d",
+        "c98c44b7-e4da-4816-9a45-6ffb37363fa0",
+        "46adc8a7-e18d-4946-91d5-0bc2b19790b0",
+        "edfe4c8f-d552-4529-8bf4-b1e8ce3d74be",
+        "c71e0947-bdb2-4798-86d0-aca8ee158007",
+        "e6f0bc71-9cbc-4eca-be2e-2bf2493b4d95",
+        "f8d2aca6-ef92-40ee-b419-82e6b59569ca",
+        "fff202fe-d3fd-4a16-ae6f-11a1a9878655",
+        "b21a3010-0a9f-48db-aff5-08fe247d144b",
+        "1d23a406-5826-4c97-bf8c-80a7cc3c04c4",
+        "e9162cba-8377-4ca9-a739-eec61bdbab9d",
+        "5ce0b258-69c3-4422-a879-d73a2a62ed46"
     ],
     "tutorial": ""
 }

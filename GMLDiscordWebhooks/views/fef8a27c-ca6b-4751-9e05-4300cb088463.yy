@@ -17,7 +17,7 @@
         "40993ffa-6959-4548-bc9e-4822f251357c"
     ],
     "filterType": "GMScript",
-    "folderName": "Discord Webhooks",
+    "folderName": "DHook",
     "isDefaultView": false,
     "localisedFolderName": ""
 }

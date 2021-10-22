@@ -1,3 +1,8 @@
+#macro DHOOK_VERSION "1.0.0"
+#macro DHOOK_AUTHOR "TabularElf - https://github.com/tabularelf"
+
+__dhook_trace("Version " + DHOOK_VERSION + " initalized! By " + DHOOK_AUTHOR);
+
 function dhook_create(_webhookURL, _avatarURL = undefined, _username = undefined) constructor {
 	static _headerMap = ds_map_create();
 	static _firstUse = true;
@@ -200,10 +205,6 @@ function dhook_create(_webhookURL, _avatarURL = undefined, _username = undefined
 	}
 	
 	static send = function() {	
-		if ((json[$ "username"] == undefined) && (json[$ "avatar_url"] == undefined))  {
-			__dhook_trace("WARNING - " + "Discord Webhook is missing bot information. Will execute as default.");
-		}
-		
 		if (json[$ "content"] == undefined) && (json[$ "embeds"] == undefined) {
 			__dhook_trace("ERROR - " + "Discord Webhook has no message. Please set a message.");
 			return -1;	

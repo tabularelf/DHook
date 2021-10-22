@@ -1,4 +1,4 @@
-# GMLDiscordWebhooks v1.0.0
+DHook v1.0.0
 GameMaker Studio 2.3.1+ to Discord Webhooks implementation.
 Repo project contains example on how to fully utilize it.
 
